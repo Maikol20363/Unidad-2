@@ -1,13 +1,14 @@
-        function saludar() {
-            alert("Hola");
-            segundaFuncion();
-        }
-        
-        function despedirse() {
-            alert(";-)");
-            segundaFuncion();
-        }
-        
-        funcion emoji() {
-            alert("¿A que si?")
-        }
+function saludar() {
+    alert("hola mundo") ;
+    emoji(":") ;
+}
+
+
+
+function despedirse() {
+    alert("Adios mundo") ;
+    emoji(":") ;
+}
+function emoji() {
+    alert(":)") ;
+}
